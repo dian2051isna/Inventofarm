@@ -11,7 +11,7 @@ def Login() :
 
 pilihan = input("Login / Register? (L/R) : ")
 
-if pilihan == R:
+if pilihan == "R":
     Register()
 elif pilihan == "L" :
     Login()
